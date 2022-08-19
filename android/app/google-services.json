@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1076478956998",
+    "project_id": "poc-remote-config-92983",
+    "storage_bucket": "poc-remote-config-92983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076478956998:android:324235ff62ee434daf8ec7",
+        "android_client_info": {
+          "package_name": "poc.remote.config"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076478956998-i6laicof3v3klru2a7k95ve9grcnlfnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkuls7YHbzHrw5Cqo04ztxNX7FRsVgvqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076478956998-i6laicof3v3klru2a7k95ve9grcnlfnn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076478956998-p471245g152rdnitr4fnaskmenn6hq2p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pocRemoteConfig"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
