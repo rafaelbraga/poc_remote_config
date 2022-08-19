@@ -53,4 +53,5 @@ Essas regras podem ser as mais diversas, como apresentar um desconto para um gru
 :warning: Como o Remote Config recupera não recupera as informações do aparelho mas sim do local de acesso, as três execuções mostram que os aparalhos são do Brasil, mesmo que os emuladores estejam configurados com a localização dos Estados Unidos.
 
 >Para mais exemplos, você pode acessar a documentação oficial clicando [aqui](https://firebase.google.com/docs/remote-config/parameters?hl=pt-br)
+
 >Para mais exemplos de cofiguração do Remote Config, indico este [tutorial](https://www.youtube.com/watch?v=YqSS2mCIR8c&t=627s)
