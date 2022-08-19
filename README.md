@@ -4,7 +4,7 @@ Uma análise das possibilidades do que o Remote Config do Firebse pode acrescent
 
 ## Objetivo
 
-Este artigo/projeto tem como objeto apresentar ao leitor funcionalidades do Remote Config que possam ser úteis no para a manutenção e evolução de suas aplicações em seu dia-a-dia. Apesar de não ser focado em ensinar como realizar a configuração e a utilização do Remote Config, este projeto pode ser utilizado como consulta teórica e prática, uma vez que os exemplos que serão citados são originados de uma configuração criada especialmente para este artigo.
+Este artigo/projeto tem como objetivo apresentar ao leitor as funcionalidades do Remote Config que possam ser úteis para a manutenção e evolução de suas aplicações em seu dia-a-dia. Apesar de não ser focado em ensinar como realizar a configuração e a utilização do Remote Config, este projeto pode ser utilizado como consulta teórica e prática, uma vez que os exemplos que serão citados são originados de uma configuração funcional criada especialmente para este artigo.
 
 ## O que é o Remote Config?
 
@@ -51,6 +51,8 @@ Essas regras podem ser as mais diversas, como apresentar um desconto para um gru
 ![Example 03](assets/png/example03.png)
 
 :warning: Como o Remote Config recupera não recupera as informações do aparelho mas sim do local de acesso, as três execuções mostram que os aparalhos são do Brasil, mesmo que os emuladores estejam configurados com a localização dos Estados Unidos.
+
+Existem vários outros valores que as condições do firebase podem considerar, como o idioma, Data/hora e versões específicas da aplicação. Além disso é possível escolher uma condição que específica uma porcentagem de usuários da aplicação(podendo ser aleatório ou não), o que é de grande ajuda quando desejamos testar uma configuração específica em produção mas não queremos que todos os usuários sejam afetados ao mesmo tempo, providenciando tempo análises e produção de insumos para decidir se a configuração deve continuar em produção e atingir mais usuários ou ser removida.
 
 >Para mais exemplos, você pode acessar a documentação oficial clicando [aqui](https://firebase.google.com/docs/remote-config/parameters?hl=pt-br)
 
