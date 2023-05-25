@@ -58,8 +58,5 @@ Existem vários outros valores que as condições do firebase podem considerar, 
 
 >Para mais exemplos de cofiguração do Remote Config, indico este [tutorial](https://www.youtube.com/watch?v=YqSS2mCIR8c&t=627s)
 
-## Testes
-
-Para exemplificar o funcionamento dos testes precisariamos de um aplicativo em produção com uma boa quantidade de usuários, o que ainda não foi possível de realizar. Assim, esta seção ficará como trabalho futuro. o funcionamento dos testes no remote config e um resumo sobre como podem ser feitos pode ser encontrado na [documentação oficial](https://firebase.google.com/docs/ab-testing?hl=pt-br).
-
+## Testes de Widget
 
